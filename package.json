@@ -1,0 +1,29 @@
+{
+  "name": "webdev-jadepug",
+  "version": "1.0.0",
+  "description": "A simple playground to my experiments with Pug (formerly known as Jade).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunonigro/webdev-jadepug.git"
+  },
+  "keywords": [
+    "pug",
+    "experiments",
+    "development",
+    "template",
+    "engine"
+  ],
+  "author": "Bruno N. <brunosopmac@gmail.com> (https://benigro.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunonigro/webdev-jadepug/issues"
+  },
+  "homepage": "https://github.com/brunonigro/webdev-jadepug#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
