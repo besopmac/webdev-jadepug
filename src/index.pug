@@ -1,5 +1,34 @@
 doctype html
-body
-  p(id="well").
-    This is a new block
-    on the game
+html(lang="en")
+  head
+    - var some_title = "Hallo World";
+    - i = ['first', 'dreamweaver', 'focus', 'wealth'];
+    
+    
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css")
+  body  
+    p(class=['first-class', 'second-class', 'last-class'])
+    p(data-attr="{'numbers': [2, 4, 6], 'string': 'Lorem ipsum', 'boolean': true}")
+    
+    //- Listas
+    ul
+      li
+        a(href="#") bar
+      li.last
+        a(href="#") foo
+    ul
+      li.first: a(href="#") foo
+      li: a(href="#") bar 
+      li.last: a(href="#") baz
+    
+    //- That is really hard to read, but we can do it...
+    ul: li.first: a(href="#") foo  
+    
+    //- Variables
+    h2 #{some_title}!
+    
+    //- Variables & Attributes
+    pre
+      | #{i[0]} #{i[1]}
+      | #{i[2]} #{i[3]}
+      
